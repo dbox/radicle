@@ -2,6 +2,7 @@
 // Typography
 // –––––––––––––––––––––––––––––––––––––––––––
 
+// in progress
 
 // font stack (add your own!)
 // helvetica-neue = "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif
@@ -52,22 +53,33 @@ h1, h2, h3, h4, h5, h6
     color inherit
 
 
-// Default heading styles
-// h1
-//   font-size rem(64px)
-//   line-height 1.1em
-// h2
-//   font-size rem(48px)
-//   line-height 1.2em
-// h3
-//   font-size rem(36px)
-//   line-height 1.3em
-// h4
-//   font-size rem(28px)
-// h5
-//   font-size rem(22px)
-// h6
-//   font-size rem(18px)
+// Overwrite Axis h1() sizes. Call these anywhere, even on non-heading styles.
+h1()
+  font-size rem(64px)
+h2()
+  font-size rem(48px)
+h3()
+  font-size rem(36px)
+h4()
+  font-size rem(28px)
+h5()
+  font-size rem(22px)
+h6()
+  font-size rem(18px)
+
+h1
+  h1()
+  // more heading styles here
+h2
+  h2()
+h3
+  h3()
+h4
+  h4()
+h5
+  h5()
+h6
+  h6()
 //
 // Default Type styles
 p

@@ -1,20 +1,24 @@
 # KNI Roots Boilerplate
 
-For jump-starting new HTML projects.
+For jump-starting new HTML projects. Currently in progress.
+
+### Todo
+- Setup JS
+- Setup headers/meta
 
 ### Setup
 
-- make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
-- clone this repo down and `cd` into the folder
-- run `npm install`
-- run `roots watch`
+- Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed.
+- Clone this repo down and `cd` into the folder.
+- Run `npm install`.
+- Run `roots watch`.
 
-## Technologies / Dependencies
+### Technologies / Dependencies
 
 * **[Gulp](http://gulpjs.com)** – Gulp is our task runner of choice, and is responsible for all minification, concatination, and watch tasks for dev.
 * **[Stylus](http://learnboost.github.io/stylus/)** – Stylus provides extremely fast, expressive, powerful, and robust pre-processing for our CSS.
-* **[Axis](http://axis.netlify.com)** – Axis is a sizeable css utility library built on top of stylus and and [nib](http://visionmedia.github.io/nib/).
-* **[Jeet](http://jeet.gs/)** – More than a grid system. Makes layout a a breeze.
+* **[Axis](http://axis.netlify.com)** – Axis is a handy utility library built on top of stylus and and [nib](http://visionmedia.github.io/nib/) which contains most mixins we may need.
+* **[Jeet](http://jeet.gs/)** – More than a grid system. Makes page layout a breeze.
 * **[Rupture](http://jenius.github.io/rupture/)** – Stylus media query utility for gorgeous breakpoints
 
 
