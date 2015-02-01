@@ -15,6 +15,7 @@ For jump-starting new HTML projects. Currently in progress.
 
 ### Technologies / Dependencies
 
+* **[roots](http://roots.cx)** – Roots is a fast, simple, and customizable static site compiler and task runner. It is responsible for all minification, concatination, and watch tasks for dev.
 * **[Stylus](http://learnboost.github.io/stylus/)** – Stylus provides extremely fast, expressive, powerful, and robust pre-processing for our CSS.
 * **[Axis](http://axis.netlify.com)** – Axis is a handy utility library built on top of stylus and and [nib](http://visionmedia.github.io/nib/) which contains most mixins we may need.
 * **[Jeet](http://jeet.gs/)** – More than a grid system. Makes page layout a breeze.
