@@ -29,5 +29,19 @@ module.exports =
     error_page: 'error.html'
 
   locals:
-    title: 'My page has a title.'
-    indexTitle: 'Crazycool'
+    # Meta info. Change this.
+    pageTitle: 'Default Page Title.'
+    siteDescription: 'This is the description of this page.'
+    siteAuthor: 'KNI'
+    bodyClass: 'home'
+    ogTitle: 'Default Page Title'
+    ogType: 'website'
+    ogUrl: 'http://kurtnoble.com'
+    ogImg: 'http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg'
+    ogDescription:'This is the description of this page.'
+    twitterCard: 'summary_large_image'
+    twitterSite: '@therealkni'
+    twitterCreator: '@dbox'
+    twitterTitle: 'Default Page Title'
+    twitterDescription: 'This is the description of this page.'
+    twitterImgSrc: 'http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg'
