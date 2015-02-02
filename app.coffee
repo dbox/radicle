@@ -9,6 +9,7 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '**/_*/*','.gitignore', 'ship.*conf']
 
   extensions: [
+    # We could also use browserify. Still looking at this.
     js_pipeline
       manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
