@@ -22,10 +22,10 @@ html
     meta(name='twitter:title', content='#{twitterTitle}')
     meta(name='twitter:description', content='#{twitterDescription}') 
     meta(name='twitter:image:src', content='#{twitterImgSrc}')    
-    title= title
+    title= pageTitle
     != css()
 
-  body
+  body(class='#{bodyClass}') 
     block content
 
     != js()

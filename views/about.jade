@@ -1,7 +1,13 @@
 extends layout
 
+block vars
+  head
+    //- overwrite any page specific meta here
+    - var bodyClass ='about'
+    - var pageTitle ='This is the about page'    
+
 block content
   h1 This is the about page! go 
     a(href="/") home
   :markdown
-    Find tutorials and documentation at *http://roots.cx* : )
+    kni *http://kurtnoble.com* : )

@@ -9,7 +9,7 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '**/_*/*','.gitignore', 'ship.*conf']
 
   extensions: [
-    js_pipeline(files: 'assets/js/*.coffee'),
+    js_pipeline(files: 'assets/js/*.js'),
     css_pipeline(files: 'assets/css/*.styl')
   ]
 
@@ -28,12 +28,11 @@ module.exports =
     gzip: true
     error_page: 'error.html'
 
+  # Variables available to any page or script
   locals:
-    # Meta info. Change this.
-    pageTitle: 'Default Page Title.'
+    pageTitle: 'Default Page Title'
     siteDescription: 'This is the description of this page.'
     siteAuthor: 'KNI'
-    bodyClass: 'home'
     ogTitle: 'Default Page Title'
     ogType: 'website'
     ogUrl: 'http://kurtnoble.com'
