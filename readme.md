@@ -4,10 +4,8 @@ For jump-starting new HTML projects.
 
 ### Todo
 - Browserify?
-- Bring in js from last bp - chad
 - Base Typography tweaks - dbox
-- favicion / apple touch - chad
-- bring in dbox dev-mode - chad
+
 
 
 ### Setup
