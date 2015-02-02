@@ -1,9 +1,9 @@
 # KNI Roots Boilerplate
 
-For jump-starting new HTML projects. Currently in progress.
+For jump-starting new HTML projects.
 
 ### Todo
-- Setup JS
+- Decided on js_pipeline vs browserify
 
 
 ### Setup
