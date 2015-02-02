@@ -4,13 +4,15 @@ For jump-starting new HTML projects.
 
 ### Todo
 - Browserify?
-- Base Typography tweaks
-- favicion / apple touch
+- Bring in js from last bp - chad
+- Base Typography tweaks - dbox
+- favicion / apple touch - chad
+- bring in dbox dev-mode - chad
 
 
 ### Setup
 
-- Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed.
+- Make sure [node.js](http://nodejs.org) and [roots]http://roots.cx/articles/getting-started are installed.
 - Clone this repo down and `cd` into the folder.
 - Run `npm install`.
 - Run `roots watch`.
