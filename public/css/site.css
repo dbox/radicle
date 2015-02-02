@@ -396,7 +396,6 @@ p {
   text-decoration: none;
   display: inline-block;
   border: none;
-  background: #ffc0cb;
 }
 .btn:hover,
 .btn:focus {
@@ -405,9 +404,6 @@ p {
 }
 .btn:active {
   background-color: #0068c3;
-}
-.btn:hover {
-  background-color: #ff851b;
 }
 body {
   padding: 50px;
