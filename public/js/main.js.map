@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sourceRoot":"","sources":["/Users/dbox/Documents/roots/assets/js/main.coffee"],"names":[],"mappings":"AAAA;AAAA,EAAA,OAAO,CAAC,GAAR,CAAY,cAAZ,CAAA,CAAA;AAAA","sourcesContent":["console.log 'hello there!'\n"]}
+{"version":3,"file":"main.js","sourceRoot":"","sources":["/Users/dbox/Documents/roots/assets/js/main.coffee"],"names":[],"mappings":"AAAA;AAAA,EAAA,OAAO,CAAC,GAAR,CAAY,aAAZ,CAAA,CAAA;AAAA","sourcesContent":["console.log 'hello world'\n"]}

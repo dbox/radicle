@@ -1,5 +1,5 @@
 {
-  "name": "kni roots boilerplate",
+  "name": "kni-roots",
   "description": "For jump-starting new HTML projects.",
   "dependencies": {
     "autoprefixer-stylus": "0.5.x",
