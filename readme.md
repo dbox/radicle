@@ -8,11 +8,12 @@ For jump-starting new HTML projects.
 - Base Typography tweaks - dbox
 - favicion / apple touch - chad
 - bring in dbox dev-mode - chad
+- test static file deploy - chad
 
 
 ### Setup
 
-- Make sure [node.js](http://nodejs.org) and [roots]http://roots.cx/articles/getting-started are installed.
+- Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx/articles/getting-started) are installed.
 - Clone this repo down and `cd` into the folder.
 - Run `npm install`.
 - Run `roots watch`.
