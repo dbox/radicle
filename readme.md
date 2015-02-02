@@ -3,7 +3,7 @@
 For jump-starting new HTML projects.
 
 ### Todo
-- Decided on js_pipeline vs browserify
+- Decide on js_pipeline vs browserify
 
 
 ### Setup
