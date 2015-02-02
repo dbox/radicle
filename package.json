@@ -1,6 +1,18 @@
 {
   "name": "kni-roots",
   "description": "For jump-starting new HTML projects.",
+  "version": "1.0.0",
+  "private": true,
+    "contributors": [
+    "Daniel Box <daniel@kurtnoble.com>",
+    "Joshua Tuscan <joshua@kurtnoble.com>",
+    "Chad Campbell <chad@kurtnoble.com>"
+  ],
+  "license": "none",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org:kni/kni-roots.git"
+  },
   "dependencies": {
     "autoprefixer-stylus": "0.5.x",
     "axis": "0.3.x",
