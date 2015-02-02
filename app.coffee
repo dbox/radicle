@@ -10,7 +10,7 @@ module.exports =
 
   extensions: [
     js_pipeline
-      files: 'assets/js/*.coffee'
+      manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
       # minify: true
     css_pipeline(files: 'assets/css/*.styl')

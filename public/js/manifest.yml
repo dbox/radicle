@@ -1,0 +1,4 @@
+# manifest.yml
+- vendor/*
+- doge.coffee
+- main.coffee
