@@ -3,7 +3,8 @@
 For jump-starting new HTML projects.
 
 ### Todo
-- Decide on js_pipeline vs browserify
+- Browserify?
+- Base Typography tweaks
 
 
 ### Setup
