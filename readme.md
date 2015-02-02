@@ -5,6 +5,7 @@ For jump-starting new HTML projects.
 ### Todo
 - Browserify?
 - Base Typography tweaks
+- favicion / apple touch
 
 
 ### Setup
