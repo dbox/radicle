@@ -32,6 +32,15 @@ html
     != css()
 
   body(class='#{bodyClass}') 
+  
+    //- Header
+    block header
+      include partials/header
+      
+    //- Site Content  
     block content
+      
+    block footer
+      include partials/footer
 
     != js()
