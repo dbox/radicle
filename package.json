@@ -3,7 +3,7 @@
   "description": "For jump-starting new HTML projects.",
   "version": "1.0.0",
   "private": true,
-    "contributors": [
+  "contributors": [
     "Daniel Box <daniel@kurtnoble.com>",
     "Joshua Tuscan <joshua@kurtnoble.com>",
     "Chad Campbell <chad@kurtnoble.com>"
@@ -22,6 +22,7 @@
     "jeet": "^6.1.2",
     "js-pipeline": "0.2.x",
     "marked": "0.3.x",
+    "roots": "^3.0.0",
     "rupture": "0.6.x",
     "stylus": "0.49.x"
   }
