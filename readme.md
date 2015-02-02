@@ -4,8 +4,7 @@ For jump-starting new HTML projects. Currently in progress.
 
 ### Todo
 - Setup JS
-- Setup headers
-- ~~meta~~
+
 
 ### Setup
 
