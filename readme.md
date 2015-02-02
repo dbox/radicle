@@ -5,12 +5,13 @@ For jump-starting new HTML projects.
 ### Todo
 - Browserify?
 - Base Typography tweaks - dbox
+- test static file deploy - chad
 
 
 
 ### Setup
 
-- Make sure [node.js](http://nodejs.org) and [roots]http://roots.cx/articles/getting-started are installed.
+- Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx/articles/getting-started) are installed.
 - Clone this repo down and `cd` into the folder.
 - Run `npm install`.
 - Run `roots watch`.
