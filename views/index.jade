@@ -5,14 +5,15 @@ extends layout
 block vars
   head
     //- overwrite any page specific meta here
-    - var bodyClass ='home'   
+    - var bodyClass ='home'  
+    - var pageTitle ='KNI Boilerplate'   
 
 block content
   p
     :markdown
       ###Hello world. 
       This text was rendered from markdown which is pretty great.
-      Visit the [about page](about.html) to see how clean urls look.
+      Visit the [about page](about) to see how clean urls look.
     
   section#headers
     h1 Boilerplate v2.3
