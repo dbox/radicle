@@ -5,7 +5,6 @@ For jump-starting new HTML projects.
 ### Todo
 - Browserify?
 - Base Typography tweaks - dbox
-- test static file deploy - chad
 
 
 
@@ -29,3 +28,4 @@ For jump-starting new HTML projects.
 
 - If you just want to compile the production build, run `roots compile -e production` and it will build to public.
 - To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
+- The build command on Netlify is `roots compile`. This will compile the site and deploy the result.
