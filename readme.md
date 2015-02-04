@@ -4,8 +4,6 @@ For jump-starting new HTML projects.
 
 ### Todo
 - Browserify?
-- Base Typography tweaks - dbox
-
 
 
 ### Setup
@@ -13,7 +11,7 @@ For jump-starting new HTML projects.
 - Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx/articles/getting-started) are installed.
 - Clone this repo down and `cd` into the folder.
 - Run `npm install`.
-- Run `roots watch`. This will will perform all watch tasks, spin up a server, and automatically point your browser to `localhost:1111/`
+- Run `roots watch`. This will will perform all watch tasks, spin up a server, and point your browser to `localhost:1111/`
 
 ### Technologies / Dependencies
 
