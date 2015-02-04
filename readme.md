@@ -13,7 +13,7 @@ For jump-starting new HTML projects.
 - Make sure [node.js](http://nodejs.org) and [roots](http://roots.cx/articles/getting-started) are installed.
 - Clone this repo down and `cd` into the folder.
 - Run `npm install`.
-- Run `roots watch`.
+- Run `roots watch`, which will perform all watch tasks, spin up a server, and automatically pull the site at `localhost:1111/`
 
 ### Technologies / Dependencies
 

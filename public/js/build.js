@@ -11692,10 +11692,6 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
   window.Headroom = Headroom;
 
 }(window, document));(function() {
-  console.log('wow');
-
-}).call(this);
-(function() {
   console.log('hello world');
 
 }).call(this);

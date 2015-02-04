@@ -414,27 +414,6 @@ body.error {
   padding: 5%;
   margin: 0;
 }
-#headers h6 {
-  border: 1px solid;
-  font-size: 3rem;
-  background: #fae77b;
-  background: #fae46c linear-gradient(to bottom, #fae77b, #fae46c) repeat-x;
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid #f9df53;
-  box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
-  position: relative;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
-}
-#headers h6:before,
-#headers h6:after {
-  content: "";
-  display: table;
-}
-#headers h6:after {
-  clear: both;
-}
 body {
   padding: 50px;
 }
