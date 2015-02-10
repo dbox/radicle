@@ -16,7 +16,7 @@ module.exports =
       # minify: true
     css_pipeline
       files: 'assets/stylus/**/*'
-      out:   'stylus/site.css'
+      out:   'css/site.css'
   ]
 
   stylus:
