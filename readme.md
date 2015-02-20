@@ -4,6 +4,7 @@ For jump-starting new HTML projects.
 
 ### Todo
 - Browserify?
+- Global responsive template
 
 
 ### Setup
