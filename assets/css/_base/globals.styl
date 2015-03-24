@@ -36,7 +36,7 @@ pie-path = '/pie.htc'
 
 body, html
   margin 0
-  padding 0 5%
+  padding 0
 
 // Main responsive template styles here
 section
@@ -46,15 +46,9 @@ section
   position relative
   clear both
   margin 0 auto
-  width 100%
+  width $maxSiteWidth
 
-  +below(3)
-    width $desktopWidth
-
-  +below(2)
-    width $tabletWidth
-
-  +below(1)
+  +below(1200px)
     width 90%
     margin 0 5%
 
