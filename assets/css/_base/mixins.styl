@@ -78,10 +78,19 @@ inherent-height($aspect-ratio)
 
 // Where'd all the mixins go?
 // Axis & Nib hav most of the mixins we need ie:
+
 // Vertically center:
 // align(b)
 // or
 // vertically-align()
+
+// Navigation list:
+// inline-list()
+
+vertically-align-reset()
+  position relative
+  top auto
+  transform translateY(0)
 
 
 // Determine item width based on sibling count
@@ -161,3 +170,15 @@ dev-mode()
     border 1px solid DeepPink
   > * > * > * > * > *
     border 1px solid MediumSlateBlue
+
+
+// Table layout mixin
+tl($layoutType)
+  display table
+  table-layout $layoutType  //fixed or auto
+  margin 0
+  padding 0
+  width 100%
+
+  > *
+    display table-cell

@@ -192,7 +192,7 @@ body {
 body,
 html {
   margin: 0;
-  padding: 0 5%;
+  padding: 0;
 }
 section {
   padding: 4.375rem 0;
@@ -201,19 +201,9 @@ section {
   position: relative;
   clear: both;
   margin: 0 auto;
-  width: 100%;
+  width: 1140px;
 }
-@media only screen and (max-width: 800px) {
-  .center {
-    width: 940px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .center {
-    width: 720px;
-  }
-}
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1200px) {
   .center {
     width: 90%;
     margin: 0 5%;
@@ -413,9 +403,6 @@ body.error {
   border: 5px solid #ff6347;
   padding: 5%;
   margin: 0;
-}
-body {
-  padding: 50px;
 }
 
  /*# sourceMappingURL=site.css.map */
