@@ -1,5 +1,5 @@
-# KNI Roots Boilerplate
-For jump-starting new static builds.
+# Radicle
+A static site boilerplate, based on [roots](http://roots.cx).
 
 ## Todo
 - tweak css folder structure
