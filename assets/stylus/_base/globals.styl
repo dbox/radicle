@@ -11,10 +11,10 @@ $mobileWidth  = 100%
 
 
 // Repsonive scale, reference: http://jenius.github.io/rupture/
-scale           = 0px 768px 992px 1200px
-mobile-cutoff   = 768px
-tablet-cutoff   = 992px
-desktop-cutoff  = 1200px
+$scale           = 0px 768px 992px 1200px
+$mobile-cutoff   = 768px
+$tablet-cutoff   = 992px
+$desktop-cutoff  = 1200px
 
 // custom image base path for roots mixins
 img-path = ''
@@ -31,26 +31,22 @@ pie-path = '/pie.htc'
 // Global layout
 // –––––––––––––––––––––
 
-*
-  box-sizing border-box
+border-box-html()
 
 body, html
   margin 0
   padding 0
 
 // Main responsive template styles here
-section
-  padding rem(70px) 0
-
 .center
   position relative
   clear both
-  margin 0 auto
-  width $maxSiteWidth
+  center($maxSiteWidth)
+  padding 0 4%
 
-  +below(1200px)
-    width 90%
-    margin 0 5%
+  +below(4)
+    max-width 100%
+
 
 //
 // Utility classes

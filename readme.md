@@ -2,9 +2,7 @@
 For jump-starting new static builds.
 
 ## Todo
-- fix debug() conflict
-- Global responsive template
-- new css structure
+- tweak css folder structure
 - bower integration
 
 ## Setup
