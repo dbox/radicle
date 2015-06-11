@@ -10,19 +10,17 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '**/_*/*','.gitignore', 'ship.*conf']
 
   extensions: [
-    # We could also use browserify. Still looking at this.
     js_pipeline
       manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
       # minify: true
     css_pipeline
-      # manifest: "assets/stylus/manifest.yml"
       files: "assets/stylus/**"
-      # out: 'css/build.css' /
       # minify: true
   ]
 
   stylus:
+    import: ['jeet', 'rupture']
     use: [jeet(), axis(), rupture(), autoprefixer()]
     sourcemap: true
 

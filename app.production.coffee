@@ -1,24 +1,27 @@
+jeet         = require 'jeet'
 axis         = require 'axis'
 rupture      = require 'rupture'
 autoprefixer = require 'autoprefixer-stylus'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
-jeet         = require 'jeet'
+
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '**/_*/*','.gitignore', 'ship.*conf']
 
   extensions: [
-    # We could also use browserify. Still looking at this.
     js_pipeline
       manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
       minify: true
-    css_pipeline(files: 'assets/css/*.styl')
+    css_pipeline
+      files: "assets/stylus/**"
+      minify: true
   ]
 
   stylus:
-    use: [axis(), rupture(), jeet(), autoprefixer()]
+    import: ['jeet', 'rupture']
+    use: [jeet(), axis(), rupture(), autoprefixer()]
     sourcemap: true
 
   'coffee-script':
