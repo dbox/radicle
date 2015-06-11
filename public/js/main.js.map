@@ -1,1 +1,0 @@
-{"version":3,"file":"main.js","sourceRoot":"","sources":["/Users/chadcampbell/Sites/roots-boilerplate/assets/js/main.coffee"],"names":[],"mappings":"AAAA;AAAA,EAAA,OAAO,CAAC,GAAR,CAAY,aAAZ,CAAA,CAAA;AAAA","sourcesContent":["console.log 'hello world'\n"]}
