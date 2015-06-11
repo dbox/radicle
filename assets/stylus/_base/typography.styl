@@ -13,10 +13,10 @@
 $main-font = "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
 .defaultType
-  font-family $main-font
-  font-weight normal
-  font-style normal
-  -webkit-font-smoothing antialiased
+  font-family: $main-font
+  font-weight: normal
+  font-style: normal
+  -webkit-font-smoothing: antialiased
 
 
 body, p, a, h1, h2, h3, h4, h5, h6,
@@ -33,36 +33,36 @@ $more-spacing = .1em
 // Headings
 // –––––––––––––––––––––––––––––––––––––––––––
 h1, h2, h3, h4, h5, h6
-  display block
-  margin 1rem 0
-  font-weight normal
+  display: block
+  margin: 1rem 0
+  font-weight: normal
 
   // Remove the margin-top on all :first-child headers
   // as the padding on the parent *almost* always makes up for it
   &:first-child
-    margin-top 0
+    margin-top: 0
 
   // Standardize margin-bottom on headers
-  margin-bottom 1rem
+  margin-bottom: 1rem
 
   // links need to inherit the heading color
   a
-    color inherit
+    color: inherit
 
 
 // Overwrite Axis h1() sizes. Call these anywhere, even on non-heading styles.
 h1()
-  font-size rem(64px)
+  font-size(64px)
 h2()
-  font-size rem(48px)
+  font-size(48px)
 h3()
-  font-size rem(36px)
+  font-size(36px)
 h4()
-  font-size rem(28px)
+  font-size(28px)
 h5()
-  font-size rem(22px)
+  font-size(22px)
 h6()
-  font-size rem(18px)
+  font-size(18px)
 
 h1
   h1()
@@ -81,7 +81,7 @@ h6
 // Default Type styles
 p
   font-size(16px)
-  line-height 1.5em
+  line-height: 1.5em
 
 
 // ligatures
