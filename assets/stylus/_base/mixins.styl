@@ -23,37 +23,35 @@ rem(value) {
   }
 }
 
-
-
-// Font-size replacement
+// // Font-size replacement
+// //
+// // Uses REM with PX fallback for older browsers
+// //
+// // uses: 'font-size 18px'
+// //       'font-size 1.3rem'
+// //
+// // ––––––––––––––––––––––––––––––––––––––––––––––––
 //
-// Uses REM with PX fallback for older browsers
-//
-// uses: 'font-size 18px'
-//       'font-size 1.3rem'
-//
-// ––––––––––––––––––––––––––––––––––––––––––––––––
-
-font-size(size) {
-  type = unit(size)
-  if type == 'px' {
-    font-size: size
-    font-size: rem(size)
-  }
-  if type == 'rem' {
-    font-size: (size * $base-font-size)
-    font-size: size
-  }
-  if type == 'em' {
-    font-size: size
-  }
-  if type == 'inherit' {
-    font-size: inherit
-  }
-  if type == 'auto' {
-    font-size: inherit
-  }
-}
+// font-size(size) {
+//   type = unit(size)
+//   if type == 'px' {
+//     font-size: size
+//     font-size: rem(size)
+//   }
+//   if type == 'rem' {
+//     font-size: (size * $base-font-size)
+//     font-size: size
+//   }
+//   if type == 'em' {
+//     font-size: size
+//   }
+//   if type == 'inherit' {
+//     font-size: inherit
+//   }
+//   if type == 'auto' {
+//     font-size: inherit
+//   }
+// }
 
 
 // Determine item width based on sibling count
@@ -110,38 +108,3 @@ sibling-count-off()
   li:first-child:nth-last-child(8),
   li:first-child:nth-last-child(8) ~ li
     width 100%
-
-
-//
-// Dev Mode Borders
-//
-// Temporarily adds borders to the children,
-// grandchildren, etc of an element during
-// development.
-//
-// Demo:  http://codepen.io/dbox/pen/dPzZoE
-//
-// ––––––––––––––––––––––––––––––––––––––––––––
-dev-mode()
-  > *
-    border 1px solid green
-  > * > *
-    border 1px solid tomato
-  > * > * > *
-    border 1px solid DeepSkyBlue
-  > * > * > * > *
-    border 1px solid DeepPink
-  > * > * > * > * > *
-    border 1px solid MediumSlateBlue
-
-
-// Table layout mixin
-tl($layoutType)
-  display table
-  table-layout $layoutType  //fixed or auto
-  margin 0
-  padding 0
-  width 100%
-
-  > *
-    display table-cell

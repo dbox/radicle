@@ -32,10 +32,25 @@ $more-spacing = .1em
 
 // Headings
 // –––––––––––––––––––––––––––––––––––––––––––
+
+h1
+  h1(4)
+h2
+  h2(3)
+h3
+  h3(2.25)
+h4
+  h4(1.75)
+h5
+  h5(1.375)
+h6
+  h6(1.125)
+
 h1, h2, h3, h4, h5, h6
   display: block
   margin: 1rem 0
   font-weight: normal
+  line-height: 1.3em
 
   // Remove the margin-top on all :first-child headers
   // as the padding on the parent *almost* always makes up for it
@@ -50,38 +65,9 @@ h1, h2, h3, h4, h5, h6
     color: inherit
 
 
-// Overwrite Axis h1() sizes. Call these anywhere, even on non-heading styles.
-h1()
-  font-size(64px)
-h2()
-  font-size(48px)
-h3()
-  font-size(36px)
-h4()
-  font-size(28px)
-h5()
-  font-size(22px)
-h6()
-  font-size(18px)
-
-h1
-  h1()
-  // more heading styles here
-h2
-  h2()
-h3
-  h3()
-h4
-  h4()
-h5
-  h5()
-h6
-  h6()
-//
-// Default Type styles
-p
-  font-size(16px)
-  line-height: 1.5em
+// p
+//   font-size(16px)
+//   line-height: 1.5em
 
 
 // ligatures
