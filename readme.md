@@ -1,5 +1,5 @@
 # Radicle
-A static site boilerplate, based on [roots](http://roots.cx).
+A static site boilerplate, powered by [roots](http://roots.cx).
 
 ## Todo
 - tweak css folder structure
