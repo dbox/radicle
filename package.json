@@ -5,7 +5,6 @@
   "private": true,
   "contributors": [
     "Daniel Box <daniel@kurtnoble.com>",
-    "Joshua Tuscan <joshua@kurtnoble.com>",
     "Chad Campbell <chad@kurtnoble.com>"
   ],
   "license": "none",
@@ -19,12 +18,15 @@
     "coffee-script": "1.9.x",
     "css-pipeline": "0.2.x",
     "jade": "^1.11.0",
-    "jeet": "^6.1.2",
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "0.0.1",
     "marked": "0.3.x",
-    "roots": "^3.0.0",
+    "postcss": "^4.1.14",
+    "roots": "^3.1.0",
     "rupture": "0.6.x",
     "stylus": "0.51.x"
+  },
+  "devDependencies": {
+    "lost": "^6.5.0"
   }
 }

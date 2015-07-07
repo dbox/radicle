@@ -1,9 +1,9 @@
-jeet         = require 'jeet'
 axis         = require 'axis'
 rupture      = require 'rupture'
 autoprefixer = require 'autoprefixer-stylus'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
+lost         = require 'lost'
 
 
 module.exports =
@@ -14,15 +14,19 @@ module.exports =
       manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
       # minify: true
-    css_pipeline
-      files: "assets/stylus/**"
+    # css_pipeline
+    #   files: "assets/stylus/**"
+    css_pipeline(manifest:'assets/stylus/manifest.yml', out: 'css/style.css')
       # minify: true
   ]
 
   stylus:
-    import: ['jeet', 'rupture']
-    use: [jeet(), axis(), rupture(), autoprefixer()]
+    import: ['rupture']
+    use: [axis(), rupture(), autoprefixer()]
     sourcemap: true
+
+  postcss:
+    use: [lost()]
 
   'coffee-script':
     sourcemap: true
