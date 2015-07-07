@@ -14,8 +14,6 @@ module.exports =
       manifest: 'assets/js/manifest.yml'
       out: 'js/build.js'
       # minify: true
-    # css_pipeline
-    #   files: "assets/stylus/**"
     css_pipeline(manifest:'assets/stylus/manifest.yml', out: 'css/style.css')
       # minify: true
   ]
@@ -27,6 +25,7 @@ module.exports =
 
   postcss:
     use: [lost()]
+    map: true    
 
   'coffee-script':
     sourcemap: true

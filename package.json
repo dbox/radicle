@@ -1,7 +1,7 @@
 {
   "name": "kni-roots",
   "description": "For jump-starting new static builds",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "contributors": [
     "Daniel Box <daniel@kurtnoble.com>",

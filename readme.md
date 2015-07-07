@@ -3,6 +3,7 @@ A static site boilerplate, powered by [roots](http://roots.cx).
 
 ## Todo
 - tweak css folder structure
+- fix sourcemaps (postcss broke it)
 - bower integration
 
 ## Setup
@@ -13,10 +14,10 @@ A static site boilerplate, powered by [roots](http://roots.cx).
 
 ## Technologies / Dependencies
 - **[Roots](http://roots.cx)** – Roots is a fast, simple, and customizable static site compiler and task runner. It is responsible for all minification, concatination, and watch tasks for dev.
-- **[Stylus](http://learnboost.github.io/stylus/)** – Stylus provides extremely fast, expressive, powerful, and robust pre-processing for our CSS. Also accepts Sass or css.
-- **[Axis](http://axis.netlify.com)** – terse, modular & powerful css library built on top of Stylus and and [nib](http://visionmedia.github.io/nib/) containing helpful tools and mixins.
-- **[Jeet](http://jeet.gs/)** – More than a grid system. Makes page layout a breeze.
-- **[Rupture](http://jenius.github.io/rupture/)** – Stylus media query utility for gorgeous breakpoints
+- **[Stylus](http://learnboost.github.io/stylus/)** – Stylus provides extremely fast, expressive, powerful, and robust pre-processing for our CSS. Also accepts Sass, or vanilla css.
+- **[Axis](http://axis.netlify.com)** – Stylus mixins and utlities
+- **[Lost](https://github.com/corysimmons/lost)** – Fractional grid system, successor to [Jeet](http://www.jeet.gs).
+- **[Rupture](http://jenius.github.io/rupture/)** – Stylus media query utility for clean breakpoints
 
 ## Deploying
 - If you just want to compile the production build, run `roots compile -e production` and it will build to public.
