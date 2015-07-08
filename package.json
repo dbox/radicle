@@ -19,9 +19,9 @@
     "css-pipeline": "0.2.x",
     "jade": "^1.11.0",
     "js-pipeline": "0.2.x",
-    "jstransformer-marked": "0.0.1",
+    "jstransformer-marked": "0.0.2",
     "marked": "0.3.x",
-    "postcss": "^4.1.14",
+    "postcss": "^4.1.15",
     "roots": "^3.1.0",
     "rupture": "0.6.x",
     "stylus": "0.51.x"
